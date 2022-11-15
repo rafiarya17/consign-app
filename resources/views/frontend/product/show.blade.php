@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div class="details-price">
-                            <span>Rp.{{ number_format($product->price) }}</span>
+                            <span>Rp {{ number_format($product->price) }}</span>
                         </div>
                         <p>{!! $product->description !!}</p>
                             <form action="{{ route('cart.store') }}" method="post">
@@ -196,7 +196,7 @@
                                 </div>
                                 <div class="funiture-product-content text-center">
                                     <h4><a href="{{ route('product.show', $product->slug) }}">{{ $product->name }}</a></h4>
-                                    <span>Rp.{{ number_format($product->price) }}</span>
+                                    <span>Rp {{ number_format($product->price) }}</span>
                                 </div>
                             </div>
                         @endforeach

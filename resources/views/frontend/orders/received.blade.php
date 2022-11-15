@@ -73,8 +73,8 @@
 										<td>{{ $item->weight }} (gram)</td>
 										<td>{{ $item->name }}</td>
 										<td>{{ $item->qty }}</td>
-										<td>Rp.{{  number_format($item->base_price) }}</td>
-										<td>Rp.{{ number_format($item->sub_total) }}</td>
+										<td>Rp {{  number_format($item->base_price) }}</td>
+										<td>Rp {{ number_format($item->sub_total) }}</td>
 									</tr>
 								@empty
 									<tr>
@@ -89,16 +89,16 @@
 							<div class="cart-page-total">
 								<ul>
 									<li> Subtotal
-										<span>Rp.{{ number_format($order->base_total_price) }}</span>
+										<span>Rp {{ number_format($order->base_total_price) }}</span>
 									</li>
 									<li>Tax (10%)
-										<span>Rp.{{ number_format($order->tax_amount) }}</span>
+										<span>Rp {{ number_format($order->tax_amount) }}</span>
 									</li>
 									<li>Shipping Cost
-										<span>Rp.{{ number_format($order->shipping_cost) }}</span>
+										<span>Rp {{ number_format($order->shipping_cost) }}</span>
 									</li>
 									<li>Total
-										<span>Rp.{{ number_format($order->grand_total) }}</span>
+										<span>Rp {{ number_format($order->grand_total) }}</span>
 									</li>
 								</ul>
 								@if (!$order->isPaid())
