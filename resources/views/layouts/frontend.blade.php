@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.png') }}">
+        <link rel="shortcut icon" type="image" href="{{ asset('frontend/assets/img/logo/filkomtitip.ico') }}">
 		
 		<!-- all css here -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.min.css') }}">
@@ -40,7 +40,7 @@
                         <div class="header-bottom-wrapper">
                             <div class="logo-2 furniture-logo ptb-30">
                                 <a href="/">
-                                    <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/logo.png') }}" alt="">
+                                    <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/filkomtitip.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="menu-style-2 furniture-menu menu-hover">
@@ -188,7 +188,8 @@
 
         <!-- footer -->
         <footer class="footer-area">
-            <div class="footer-top-area pt-70 pb-35 wrapper-padding-5">
+
+            {{-- <div class="footer-top-area pt-70 pb-35 wrapper-padding-5">
                 <div class="container-fluid">
                     <div class="widget-wrapper">
                         <div class="footer-widget mb-30">
@@ -244,13 +245,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
+
             <div class="footer-bottom ptb-20 gray-bg-8">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
+                                <p>Copyright © <a href="https://www.instagram.com/filkom.titip/">Ekonomi Kreatif @bemfilkomub </a> x Kelompok 5 2022. All Right Reserved.</p>
                             </div>
                         </div>
                     </div>

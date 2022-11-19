@@ -2,7 +2,10 @@
 @section('title', 'Order Detail')
 @section('content')
 	<!-- header end -->
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})">
+
+	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ "https://source.unsplash.com/2400x1350?shoes" }})">
+
+	{{-- <div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})"> --}}
 		<div class="container">
 			<div class="breadcrumb-content text-center">
 				<h2>Order Received</h2>

@@ -1,7 +1,10 @@
 @extends('layouts.frontend')
 @section('title', 'Favorite Items')
 @section('content')
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})">
+
+	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ "https://source.unsplash.com/2400x1350?shoes" }})">
+	{{-- <div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})"> --}}
+		
 		<div class="container-fluid">
 			<div class="breadcrumb-content text-center">
 				<h2>My Favorites</h2>
