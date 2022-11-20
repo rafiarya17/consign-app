@@ -36,7 +36,7 @@
 									<th>Order ID</th>
 									<th>Grand Total</th>
 									<th>Status</th>
-									<th>Payment</th>
+									<th>Date</th>
 									<th>Action</th>
 								</thead>
 								<tbody>
@@ -44,11 +44,11 @@
 										<tr>    
 											<td>
 												{{ $order->code }}<br>
-												<span style="font-size: 12px; font-weight: normal"> {{ $order->order_date }}</span>
+												{{-- <span style="font-size: 12px; font-weight: normal"> {{ $order->order_date }}</span> --}}
 											</td>
 											<td>{{ number_format($order->grand_total) }}</td>
 											<td>{{ $order->status }}</td>
-											<td>{{ $order->payment_status }}</td>
+											<td>{{ $order->order_date }}</td>
 											<td>
 												<a href="{{ route('orders.show', $order->id) }}" class="btn btn-info btn-sm">details</a>
 											</td>

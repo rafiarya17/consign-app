@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/form', [\App\Http\Controllers\FormBayarController::class, 'index'])->name('form.index');
+Route::get('/waitingpayments', [\App\Http\Controllers\FormBayarController::class, 'wait'])->name('form.wait');
+
 Route::post('payments/notification', [\App\Http\Controllers\PaymentController::class, 'notification'])->name('payment.notification');
 Route::get('payments/completed', [\App\Http\Controllers\PaymentController::class, 'completed'])->name('payment.completed');
 Route::get('payments/failed', [\App\Http\Controllers\PaymentController::class, 'failed'])->name('payment.failed');

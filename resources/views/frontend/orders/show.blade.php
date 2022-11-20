@@ -7,10 +7,10 @@
 	{{-- <div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})"> --}}
 		<div class="container-fluid">
 			<div class="breadcrumb-content text-center">
-				<h2>My Favorites</h2>
+				<h2>My Orders</h2>
 				<ul>
 					<li><a href="{{ url('/') }}">home</a></li>
-					<li>my favorites</li>
+					<li>Order by ID</li>
 				</ul>
 			</div>
 		</div>
@@ -67,11 +67,11 @@
 									<br> Cancellation Note : {{ $order->cancellation_note}}
 								@endif
 								<br> Payment Status: {{ $order->payment_status }}
-								<br> Shipped by: {{ $order->shipping_service_name }}
+								<br> Courier Type: {{ $order->shipping_service_name }}
 							</address>
 						</div>
 					</div>
-					<div class="table-content table-responsive">
+					{{-- <div class="table-content table-responsive">
 						<table class="table table-bordered table-striped">
 							<thead>
 								<tr>
@@ -100,7 +100,7 @@
 								@endforelse
 							</tbody>
 						</table>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</div>

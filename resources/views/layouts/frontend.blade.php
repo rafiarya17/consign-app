@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{{ config('app.name', 'Laravel') }} |  @yield('title')</title>
+        <title>Filkom Titip</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -58,10 +58,7 @@
                                                     <li><a href="{{ route('shop.index', $category_menu->slug) }}">{{ $category_menu->name }}</a></li>
                                                 @endforeach
                                             </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">contact</a>
-                                        </li>
+                                        </li>                            
                                     </ul>
                                 </nav>
                             </div>
