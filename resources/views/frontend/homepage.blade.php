@@ -61,19 +61,19 @@
                 <div class="services-wrapper mt-40">
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/26.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/authentic.png') }}" alt="" width="80" height="80">
                         </div>
                         <div class="services-content">
-                            <h4>Free Shippig</h4>
+                            <h4>100% Authentic</h4>
                             <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/27.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/27.png') }}" alt="" >
                         </div>
                         <div class="services-content">
-                            <h4>24/7 Support</h4>
+                            <h4>24/7 Service</h4>
                             <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
                         </div>
                     </div>
